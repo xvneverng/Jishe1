@@ -1,0 +1,215 @@
+html,body{
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+.xuanfu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+        z-index: 999;
+}
+#nav {
+    margin-left: 500px;
+}
+#nav li {
+    display: block;
+    list-style: none;
+    float: left;
+    color: rgb(112, 149, 182);
+    margin-top: 0px;
+    margin-left: 60px;
+
+}
+#nav a:hover {
+    background-color: rgb(54, 82, 104);
+
+    color: rgb(37, 221, 197);
+}
+.daoyan {
+    margin-top: 20px;
+    width: 100%;
+    background: url(./img/道路夜景1.png) no-repeat;
+    height: 400px;
+    color: white;
+}
+
+.t1 {
+    text-indent: 20px;
+    padding: 15px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+.p1{
+    position:absolute;
+    top: 150px;
+    left: 100px;
+    font-size: 45px;
+    font-family: 'ArtisticFont', sans-serif;
+    color: silver;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #333;
+}
+.p2 {
+    position: absolute;
+    margin-top: 50px;
+    font-size: 30px;
+    font-family: 'ArtisticFont', sans-serif;
+    color: silver;
+    letter-spacing: 2px;
+    text-shadow: 2px 2px 2px #5c4949;
+}
+.daoyan p {
+    position: relative;
+    top: 60px;
+    margin-top: 10px;
+    left: 100px;
+}
+.main {
+    width:100%;
+    height: auto;
+    background: rgb(32,36,47);
+}
+.jieshao{
+    position: relative;
+    width: 50%;
+    left: 25%;
+}
+.jieshao1{
+    margin-top: 0px;
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black, 0px 0px 2px black;
+    color: white;
+}
+.gongneng1 {
+    top: 100px;
+    color:white;
+    font-size: 18px;
+    position: relative;
+    float: left;
+    margin-left: 5px;
+    width: 80%;
+    margin-top: 50px;
+    border: 2px solid rgb(111, 146, 214);
+}
+.jieshao2{
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black, 0px 0px 2px black;
+    color: white;
+}
+
+.jieshao3{
+    margin-top: 100px;
+    position: relative;
+    top: 100px;
+    font-size: 25px;
+    text-shadow: 5px 5px 5px black, 0px 0px 2px black;
+    color: white;
+}
+.zhanshi{
+    width: 100%;
+    height: 267px;
+    margin-top: 200px;
+
+}
+.zhanshi img{
+    float: left;
+    margin-right: 20px;
+    border: 2px solid rgb(210, 216, 228);
+}
+.t2 {
+    float: left;
+    width: 230px;
+    position: relative;
+    padding: 15px;
+    font-size: 20px;
+    border: 2px solid rgb(111, 146, 214);
+    text-indent: 20px;
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-align: justify;
+    text-transform: uppercase;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+}
+.shiyong {
+    font-size: 25px;
+    margin-top: 70px;
+    margin-left: 200px;
+    border-radius: 10px;
+    width: 200px;
+    height: 100px;
+}
+button:active {
+    background-color: rgb(143, 251, 42);
+    color: white;
+  }
+
+  /* 遮罩样式 */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.5);
+  }
+  
+  /* 弹窗样式 */
+  .modal-content {
+    background-color: rgb(32,36,47);
+    height: 20%;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #fff;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    width: 40%;
+    color: white;
+  }
+  
+  /* .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  } */
+  .yanshi1{
+    border: 1px solid #fff;
+    width: 20%;
+    height: 20%;
+    box-shadow: 0 0 10px rgba(255,255,255,0.5);
+    border-radius: 10px;
+  }
+  #result {
+    width: 100%;
+    height: 200px;
+  }
